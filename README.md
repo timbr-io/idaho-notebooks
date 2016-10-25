@@ -15,7 +15,7 @@ Make sure that your gbdx credientials are setup at `$HOME/.gbdx-auth` according 
 
 ### Environment Setup Issues
 
-If you already have an environment name "ship" setup, setup will fail.  Removing the "ship" environment by running `conda env remove -n idaho` will allow setup to succeed.
+If you already have an environment name "ship" setup, setup will fail.  Removing the "ship" environment by running `conda env remove -n ship` will allow setup to succeed.
 
 ## Running the notebook
 
