@@ -2,7 +2,7 @@
 
 ## Setup
 
-The setup procedure assumes that Continuum.io's [Anaconda Python Distribution](https://www.continuum.io/downloads) is installed and you have already cloned this repository onto your computer.  From this folder, create a conda environment named "idaho", with the necessary dependencies installed, activate it, and launch the jupyter notebook using the following commands:
+The setup procedure assumes that Continuum.io's [Anaconda Python Distribution](https://www.continuum.io/downloads) is installed and you have already cloned this repository onto your computer.  From this folder, create a conda environment named "ship", with the necessary dependencies installed, activate it, and launch the jupyter notebook using the following commands:
 
 ```Bash
 idaho-notebooks $ conda env create -f environment.yml
