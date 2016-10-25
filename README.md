@@ -6,7 +6,8 @@ The setup procedure assumes that Continuum.io's [Anaconda Python Distribution](h
 
 ```Bash
 idaho-notebooks $ conda env create -f environment.yml
-idaho-notebooks $ source activate idaho
+idaho-notebooks $ source activate ship
+idaho-notebooks $ pip install git+git://github.com/timbr-io/idaho-map.git
 (idaho) idaho-notebooks $ jupyter notebook
 ```
 
@@ -14,6 +15,8 @@ Make sure that your gbdx credientials are setup at `$HOME/.gbdx-auth` according 
 
 ### Environment Setup Issues
 
-If you already have an environment name "idaho" setup, setup will fail.  Removing the "idaho" environment by running `conda env remove -n idaho` will allow setup to succeed.
+If you already have an environment name "ship" setup, setup will fail.  Removing the "ship" environment by running `conda env remove -n idaho` will allow setup to succeed.
 
 ## Running the notebook
+
+Just execute the cells!
