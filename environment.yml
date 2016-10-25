@@ -59,7 +59,7 @@ dependencies:
 - networkx=1.11=py27_0
 - notebook=4.2.3=py27_0
 - numpy=1.11.2=py27_0
-- opencv
+- opencv=2.4.10=np110py27_1
 - openssl=1.0.2j=0
 - path.py=8.2.1=py27_0
 - pathlib2=2.1.0=py27_0
