@@ -11,7 +11,7 @@ idaho-notebooks $ pip install git+git://github.com/timbr-io/idaho-map.git
 (idaho) idaho-notebooks $ jupyter notebook
 ```
 
-Make sure that your gbdx credientials are setup at `$HOME/.gbdx-auth` according to the instructions [available here](https://github.com/TDG-Platform/gbdx-auth#ini-file)
+Make sure that your gbdx credientials are setup at `$HOME/.gbdx-auth` according to the instructions [available here](https://github.com/TDG-Platform/gbdx-auth#ini-file), or you can specify them in the notebook.
 
 ### Environment Setup Issues
 
